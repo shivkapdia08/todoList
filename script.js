@@ -2,6 +2,9 @@ let input = document.querySelector("input");
 let btn = document.querySelector("button");
 let ul = document.querySelector("ul");
 
+// create li items code
+
+
 btn.addEventListener("click", () => {
   let li = document.createElement("li");
   li.innerText=(input).value;
@@ -11,6 +14,8 @@ btn.addEventListener("click", () => {
   ul.appendChild(li);
   input.value="";
 });
+
+// delete button code
 
 ul.addEventListener("click",(event) => {
 
